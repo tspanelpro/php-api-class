@@ -26,3 +26,5 @@
 			$status=$response['success']; // Geri dönen verileri alıyoruz
          ?>
 # Api Dökümasyonları https://www.tspanel.pro/dev/intro
+
+# Powered and Created by TsPanel.pro
