@@ -50,22 +50,8 @@ public function setAction($action = NULL){
 }  
 public function setParams($getparam = "none"){ 
   $this->curl_params = http_build_query($getparam);
-}  
-
-  // Curl Funcitons
-
-public function StartCurl($ch)
-{ 
-}
-
-public function CurlHeader($ch)
-{
-}
-
-public function CurlPost($ch)
-{
-}
-
+}   
+ 
   // Curl Send Funcitons
 
 public function send(){  
