@@ -3,9 +3,9 @@ include '../lib/tspanel.class.php';
 $apikey="YourApiKey";
 $secret="YourApiSecretKey";
 
-$api = new tspanel_api("https://www.tspanel.pro/api/"); // Bağlantı Sağlıyoruz
+$api = new tspanel_api("https://panel.ts3.info.tr/api/"); // Bağlantı Sağlıyoruz
 $api->SetApi($apikey,$secret); // Api kimliğimizi tanımlıyoruz
-$api->SetAuth(1,"bayi@tspanel.pro"); // Bayi Hesabımızı Doğruluyoruz
+$api->SetAuth(1,"bayi@ts3.info.tr"); // Bayi Hesabımızı Doğruluyoruz
 $api->SetHeader(); // Gerekli Bilgileri Header ile Bağlantı Adresine Gönderiyoruz
 
 // Müşteri Hesabı Oluşturuyoruz
